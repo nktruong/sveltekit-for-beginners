@@ -28,7 +28,9 @@
     "checkJs": true,
     "baseUrl": ".",
     "paths": {
-      "$root/*": ["./src/*"]
+      "$root/*": ["./src/*"],
+	      "$lib":["src/lib"],
+08:03:47.713	  "$lib/*":["src/lib/*"]
     }
   },
   "include": [
